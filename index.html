@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض الشهادات والإنجازات</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding: 30px 20px;
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0 0 10px 0; color: #58a6ff; }
+        .section-title {
+            color: #f0f6fc;
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 8px;
+            margin-top: 40px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .card {
+            background: #161b22;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #30363d;
+            border-top: 4px solid #238636;
+        }
+        .card-past {
+            border-top-color: #8b949e;
+        }
+        .card h3 { margin-top: 0; color: #58a6ff; }
+        .date { font-size: 0.85em; color: #8b949e; display: block; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>معرض الشهادات والإنجازات</h1>
+            <p>أهلاً بك في صفحتي الشخصية لعرض المشاريع والشهادات</p>
+        </header>
+
+        <!-- قسم إنجازات هذا العام -->
+        <h2 class="section-title">🌟 إنجازات وتحديات هذا العام (2026)</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>شهادة / مسابقة جديدة</h3>
+                <span class="date">عام 2026</span>
+                <p>تفاصيل وافية عن الإنجاز أو المسابقة أو الدورة التي تم إتمامها هذا العام.</p>
+            </div>
+            <div class="card">
+                <h3>مشروع جديد</h3>
+                <span class="date">عام 2026</span>
+                <p>وصف مختصر للمشروع أو الفعالية الأخيرة.</p>
+            </div>
+        </div>
+
+        <!-- قسم الإنجازات السابقة -->
+        <h2 class="section-title">📚 الإنجازات والشهادات السابقة</h2>
+        <div class="grid">
+            <div class="card card-past">
+                <h3>دورات وشهادات سابقة</h3>
+                <span class="date">قبل 2026</span>
+                <p>تفاصيل الشهادات والمشاركات القديمة.</p>
+            </div>
+            <div class="card card-past">
+                <h3>مشاريع سابقة</h3>
+                <span class="date">قبل 2026</span>
+                <p>نبذة عن الأنشطة والمشاريع المنفذة سابقاً.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
